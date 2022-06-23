@@ -13,6 +13,8 @@ public class SecondDayClassTwo {
 
 		
 		System.out.println(SecondDayClassTwo.math(12, 12));
+		System.out.println("pull request = a request for approval of our code "
+				+ "from the person in charge of approval and usually it is senior SDET");
 
 		
 
