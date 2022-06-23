@@ -5,6 +5,10 @@ public class SecondDayClassTwo {
 		int c = a * b;
 		return c;
 	}
+	
+	public String getName(String name) {
+		return name;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,7 +20,9 @@ public class SecondDayClassTwo {
 		System.out.println("pull request = a request for approval of our code "
 				+ "from the person in charge of approval and usually it is senior SDET");
 
-		
+		SecondDayClassTwo name = new SecondDayClassTwo();
+		String name2 = name.getName("ahamd Jan");
+		System.out.println(name2);
 
 	}
 
