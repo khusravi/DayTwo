@@ -1,0 +1,21 @@
+package second.day;
+
+public class SecondDayClassTwo {
+	public static int math(int a, int b) {
+		int c = a * b;
+		return c;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int multi = SecondDayClassTwo.math(5, 4);
+		System.out.println(multi);
+
+		
+		System.out.println(SecondDayClassTwo.math(12, 12));
+
+		
+
+	}
+
+}
